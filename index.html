@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje Portfolio - Szablon Lekcyjny</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
 
@@ -18,9 +19,7 @@
 
     <section class="hero">
         <div class="container">
-            <div class="avatar-placeholder">
-                :)
-            </div>
+            <button class="avatar-placeholder" id="klikacz"onclick="klik()">:)</button>
 
             <div class="subtitle">tu też coś zmienie</div>
             <h1>joł, jestem <span style="color: var(--secondary)">Kacper</span></h1>
@@ -41,7 +40,7 @@
             <div class="grid">
                 <div class="card">
                     <h3>historia</h3>
-                    <p>wiem co się stało pod legnicą</p>
+                    <p>wiem co się stało pod <a href="https://pl.wikipedia.org/wiki/Bitwa_pod_Legnic%C4%85" id="legnica" target="_blank">Legnicą</a></p>
                 </div>
 
                 <div class="card">
